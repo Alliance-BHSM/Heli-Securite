@@ -7,7 +7,7 @@ on:
 
 env:
   DOCKER_REGISTRY: ghcr.io
-  DOCKER_REPOSITORY: ${{secrets.ORG_OWNER}}/monacair-website
+  DOCKER_REPOSITORY: ${{secrets.ORG_OWNER}}/heli-securite-website
 
 jobs:
   build-and-deploy:
